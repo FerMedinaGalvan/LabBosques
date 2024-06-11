@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio Bosques</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/FerMedinaGalvan/LabBosques/main/logo.jpg" type="image/x-icon">
+    <style>
+        ul {
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            position: fixed;
+            top:0; 
+            left:0; 
+            background-color: burlywood;
+            height:100%;
+            width:150px;
+            z-index: 1;
+        }
+        li {
+            margin: 10px 0;
+        }
+        li a {
+           display: block;
+           padding:10px 20px;
+           text-decoration: wavy;
+           color: white;
+        }
+        li a:hover{
+            background-color: rgba(194, 111, 111, 0.47);
+        }
+        #menu {
+            display: none;
+        }
+    </style>
+</head>
+<body bgcolor="F5 DE B3"> 
+    <div class="icon" onclick="toggleMenu()"></div>
+    <ul id="menú">
+        <li><a href="slider1.html"> ESTUDIOS</a></li>
+        <li><a href="slider3.html"> SOBRE NOSOTROS </a></li>
+        <li><a href="slider4.html"> CONTACTANOS </a></li>
+    </ul>
+    <script>
+        function toggleMenu(){
+            var menu=document.getElementById("menu");
+        if (menu.style.display==="block"){
+            menu.style.display="none";
+        } else {
+            menu.style.dispaly="block"
+        }
+    }
+    </script>
+    <h1 style="background-color: rgba(194, 111, 111, 0.47); color:white;"> L A B O R A T O R I O   
+        <br> B O S Q U E S </h1>
+    <img src="https://raw.githubusercontent.com/FerMedinaGalvan/LabBosques/main/logo.jpg" alt="20%"  width="18%">
+    <h3 style= "border:2px solid rgba(194, 111, 111, 0.47); color: brown;"> P R O P O S I T O</h3>
+    <p> NUESTRO PROPOSITO ES BRINDARLE LA MEJOR ATENCION Y SERVICIOS A NUESTROS CLIENTES 
+        PARA QUE CON AYUDA  <br> DEL MEDICO PUEDAN TENER UN DIAGNOSTICO CERTERO. </p>
+    <h3 style= "border:2px solid rgba(194, 111, 111, 0.47); color: brown;"> D I R E C C I O N </h3>
+    <p> NUESTRA DIRECCION ES: <br> Calz. Venustiano Carranza <br> No. 20-A  Col.Centro <br>
+         Juan Aldama, Zacatecas</p>
+    <img src="https://raw.githubusercontent.com/FerMedinaGalvan/LabBosques/main/googlemaps.jpg" alt="20%" width="18%"> 
+    <br><br>
+    <a href="https://maps.app.goo.gl/VWhNXArGV4d5jMb89?g_st=iw"> 
+        <buton class="btn-1" >UBICACION EN GOOGLE MAPS </button>
+    </a>
+    <a href="https://maps.apple.com/?address=Venustiano%20Carranza%2018,%20Centro,%2098300%20Juan%20Aldama,%20Zac.,%20Mexico&auid=575153466543851675&ll=24.294520,-103.392195&lsp=9902&q=Laboratorio%20Bosques&t=m "> 
+        <buton class="btn-1" > UBICACION EN MAPS (Apple) </button>
+    </a>
+    <h3 style= "border:2px solid rgba(194, 111, 111, 0.47); color: brown;"> H O R A R I O </h3>
+    <p> LUNES A JUEVES:<br> 8:00 - 14: 30 <br> 16:30 - 18:00 </p>
+    <p> VIERNES Y SABADO: <br> 8:00 - 15:00 </p>
+    <p> DOMINGO: <br>CERRADO </p>
+    
+<style>
+    body {
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: #210e0e;
+      text-align: center;
+      text-size-adjust:large;
+    }
+</style>
+<br><br>
+<p> Pagina creada por: Maria Fernanda Medina Galvan 4D</p>
+</body>
+</html>
